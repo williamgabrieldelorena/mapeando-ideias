@@ -1,0 +1,19 @@
+projeto = {
+    "Backend": ["API", "Banco de Dados", "Autenticação"],
+    "Frontend": ["Interface", "Dashboard", "Responsividade"],
+    "Funcionalidades": ["Login", "Cadastro", "Relatórios", "Notificações"],
+    "Infraestrutura": ["Docker", "GitHub Actions", "Deploy"],
+    "Documentação": ["README", "Wiki", "API Docs"],
+    "Futuro": ["IA", "Aplicativo Mobile", "Integrações"]
+}
+
+print("```mermaid")
+print("mindmap")
+print("  root((Projeto))")
+
+for categoria, itens in projeto.items():
+    print(f"    {categoria}")
+    for item in itens:
+        print(f"      {item}")
+
+print("```")

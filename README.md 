@@ -1,0 +1,31 @@
+# Mapa de Ideias do Projeto
+
+```mermaid
+mindmap
+  root((Projeto))
+    Backend
+      API
+      Banco de Dados
+      Autenticação
+    Frontend
+      Interface
+      Dashboard
+      Responsividade
+    Funcionalidades
+      Login
+      Cadastro
+      Relatórios
+      Notificações
+    Infraestrutura
+      Docker
+      GitHub Actions
+      Deploy
+    Documentação
+      README
+      Wiki
+      API Docs
+    Futuro
+      IA
+      Aplicativo Mobile
+      Integrações
+```
